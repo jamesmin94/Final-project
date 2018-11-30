@@ -45,7 +45,7 @@ body {
 section {
   width: 90%;
   background: white;
-  margin: 2em auto;
+  margin: 30px auto;
   padding: 2em;
 }
 
@@ -62,7 +62,7 @@ section p {
 
 #chart {
   width: 500px;
-  margin: 0 auto;
+  margin: 30px auto;
 }
 
 .content {
@@ -98,22 +98,21 @@ section p {
 
 .flex-container {
   width: 500px;
-  margin: 0 auto;
+  margin: 30px auto;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
 }
 
 .flex-container img {
-  width: 45%;
-  height: 300px;
+  width: 48%;
+  height: 200px;
 }
 
 .im-de {
   background: #ffffff;
-  padding: 20px;
   width: 45%;
-  height: 300px;
+  height: 200px;
   word-break : break-all;
   display: inline-block;
 }
@@ -122,6 +121,7 @@ section p {
   width: 100%;
   font-size: 0.9em;
   line-height: 1.5em;
+  margin-bottom: 1em;
 }
 
 @media only screen and (max-width: 800px) {
