@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>Economic and Political Relationship between U.S. and South Korea</title>
+  <title>Economic and Political Relationship between United States and South Korea</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/main123.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin="">
@@ -16,14 +16,14 @@
       <h1>Economic and Political Relationship between U.S. and South Korea</h1>
       <div id="navbar">
         <a href="#intro">Introduction</a>
-        <a href="#maps">The Trade Value Data Map</a>
+        <a href="#maps">Map</a>
         <a href="#chart-section"> Data Chart</a>
       </div>
     </div>
 
 
     <div class="content">
-      <section id="intro">
+      <section id="intro" class="hidden-element">
         <h2>South Korea and the USA Established a Long Collaborative Economic and political relationship</h2>
         <div class="flex-container">
           <img id="im1" class="interactive-element" src="images/image1.jpg" alt="President Moon and Trump 1"/>
@@ -38,15 +38,16 @@
             <p>The White House from Washington, DC [Public domain], <a href="https://commons.wikimedia.org/wiki/File:President_of_the_United_States_Donald_John_Trump_%26_President_of_South_Korea_Moon_Jae-in_in_Seoul,_South_Korea,_November_7,_2017_(24384171828).jpg">via Wikimedia Commons (Link to permission page)</a></p>
           </div>
         </div>
-        <p>According to the article "U.S. - Korea Free Trade agreement" the USA and South Korea president signed in Free trade agreement on March 15, 2012. According to the article "Fact Sheet on U.S-Korea Free Trade Agreement Outcomes" car is the products that are positively affected by this trade agreement. The article also shows that South Korea away tariffs for US trucks until 2041. Additionally, South Korea motor company can export 50,000 cars per years. Because of a free-trade agreement, it causes to increase the market share of Korean cars in the U.S. auto market.</p>
+        <p><b>Click on Images</b> to see descriptions</p>
+        <p>According to the article "U.S. - Korea Free Trade agreement" the USA and South Korea president signed in Free trade agreement on March 15, 2012. According to the article "Fact Sheet on U.S-Korea Free Trade Agreement Outcomes" car is product that is positively affected by this trade agreement. The article also shows that South Korea away tariffs for US trucks until 2041. Additionally, South Korea motor company can export 50,000 cars per years. Because of a free-trade agreement, it causes to increase the market share of Korean cars in the U.S. auto market.</p>
        <p><a href="https://ustr.gov/trade-agreements/free-trade-agreements/korus-fta">"U.S. - Korea Free Trade Agreement"</a></p>
        <p><a href="https://ustr.gov/about-us/policy-offices/press-office/fact-sheets/2018/september/fact-sheet-us-korea-free-trade">"Fact Sheet on U.S.-Korea Free Trade Agreement Outcomes"</a></p>
 
 
       </section>
 
-      <section id="maps">
-        <h2>The Trade Value between the USA and Asia Countries</h2>
+      <section id="maps" class="hidden-element">
+        <h2>The Trade Value between the USA and South Korea</h2>
 
         <div id="asia-map" style=""></div>
         <p><a href="https://www.bea.gov/system/files/2018-11/imne1118.pdf">Table 2. Selected Data for Majority-Owned U.S. Affiliates by Country of Ultimate Beneficial Owner, 2016
@@ -54,11 +55,12 @@
         <p>Among Asia countries, South Korea ranked second largest trade imported value. This information implied that South Korea has a great effect on USA economics. Most American thought that China would hugely effect on USA economics. However, this map data shows that South Korea cause influence on USA economics.</p>
       </section>
 
-      <section id="chart-section">
-        <h2>The investment from the USA to Asia Countries</h2>
+      <section id="chart-section" class="hidden-element">
+        <h2>The Investment from the USA to South Korea</h2>
 
         <div id="chart"></div>
         <p><a href="https://www.bea.gov/system/files/2018-07/fdici0718.pdf">Table 5. Foreign Direct Investment in the United States: Selected Items by Country of Foreign Parent, 2014–2017.</a></p>
+        <p>The U.S. investment on South Korea is $38493.00, which is ranked sixth country. </p>
       </section>
     </div>
 
@@ -75,7 +77,7 @@
   <script src="https://code.highcharts.com/highcharts.js"></script>
   <script src="js/map.js"></script>
   <script src="js/chart.js"></script>
-  <script src="js/picture.js"></script>
+  <script src="js/control.js"></script>
 </body>
 
 </html>
